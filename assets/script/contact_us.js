@@ -23,3 +23,8 @@ const observe = new IntersectionObserverEntry(entries => {
 form.forEach(form => {
     observe.observe(form);
 });
+
+
+// 768
+// 1000
+// 902

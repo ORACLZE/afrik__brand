@@ -7,7 +7,7 @@
     <title>CONTACT US</title>
 </head>
 <body>
-  <header>
+  <!-- <header>
     <nav>
       <ul>
          <li><a href="../index/index.html"><img src="../images/Primary_logo.png" alt="ERROR 404"></a></li>
@@ -19,10 +19,28 @@
          <li><a href="courses.html">COURSES</a></li>
          <li><a href="contact_us.html">CONTACT US</a></li>
       </ul>
-    </nav>
-    <h1 class="section">contact Us</h1>
-    <p class="section">Let us Do The Work So That You don't Have To</p>
-  </header> 
+    </nav> -->
+    <header>
+        <nav id="navBar" class="navbar">
+            <div class="logo">
+                <a href="#"><img src="../images/Primary_logo.png" alt=""></a>
+            </div>
+            <div class="menu-toggle">
+                <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index/index.html">HOME</a></li>
+                <li><a href="about_us.html">ABOUT US</a></li>
+                <li><a href="pricing.html">PRICING</a> </li>
+                <li><a href="our_services.html">OUR SERVICES &#9660; </a></li>
+                <li><a href="resources.html">RESOURCES &#9660; </a></li>
+                <li><a href="courses.html">COURSES</a></li>
+                <li><a href="contact_us.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+        <h1 class="section">contact Us</h1>
+        <p class="section">Let us Do The Work So That You don't Have To</p>
+    </header>
 
    <main>
     <section id="section-1" class="section">
@@ -147,7 +165,9 @@
     <P>Get helpful tips and industry trends that will help you reach your audience <br>
        and get them interested in your offer. Subscribe to our newsletter today!</P>
     <input type="email" name="email" id="input" placeholder="YOUR EMAIL:">
-    <a href="about_us.html"><button type="button" id="subscribe">Subscribe Now</button></a>
+    <a href="../index/index.html">
+        <button type="button" id="subscribe">Subscribe Now</button>
+    </a>
 </section>
 </main>
 

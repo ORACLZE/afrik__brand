@@ -17,28 +17,36 @@ header {
     background-color: rgb(10, 1, 53);
     height: 100px;
 }
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+i.fa-bars {
+    color: #ff4500;
+    display: none;
+}
+.logo img {
+    width: 180px;
+    height: 30px;
+    margin: 0;
+    /* padding-left: 15px; */
+}
 header nav ul {
+    display: flex;
     list-style-type: none;
     padding: 0;
-    position: relative;
-    bottom: 30px;
-}
-header nav ul img  {
-    width: 180px;height: 30px;
-    margin: 0;
-    padding-left: 15px;
-    position: relative;
-    right: 50px;
-    top: 10px;
+    /* position: relative;
+    bottom: 30px; */
 }
 header nav ul li {
-    display: inline;
     color: #ff4500;
     margin:0 25px;
     justify-content: space-around;
     /* gap: 30px; */
-    position: relative;
-    top: 50px;
+    /* position: relative;
+    top: 50px; */
 }
 header nav ul li :hover {
     color: #fff;
@@ -57,7 +65,8 @@ header nav ul li a :hover{
 }
 
 #section-1 {
-    background-color: rgb(10, 1, 53);
+   background: repeating-radial-gradient(circle, #5eec4b,
+   #4c00ff 20%);
     color: #fff;
     text-align: center;
     padding-top: 170px;
@@ -87,9 +96,11 @@ header nav ul li a :hover{
     padding-bottom: 140px;
 }
 #section-2 {
-    display: flex;
     margin-top: 20px;
     padding-left: 130px;
+}
+.section-2 {
+    display: flex;
 }
 #side {
     /* border: #ff4500 5px solid; */
@@ -118,7 +129,21 @@ header nav ul li a :hover{
 .sIde img {
     width: 100%;
 }
-
+.button {
+    width: 300px;
+    height: 7vh;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    margin-bottom: 20px;
+}
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
 .consultation {
     position: relative;
     bottom: 90px;
@@ -204,9 +229,10 @@ header nav ul li a :hover{
     color: #fff;
     font-size: 20px;
     width: 200px;
-    height: 73px;
+    height: 72px;
     position: relative;
-    bottom: 170px;
+    /* bottom: 109px; */
+    bottom: 169px;
     right: 6px;
     /* left: 5px; */
     margin-top: 20px;

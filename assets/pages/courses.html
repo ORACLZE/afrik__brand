@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <header>
+    <!-- <header>
         <nav>
             <ul>
                 <li><a href="../index/index.html"><img src="../images/Primary_logo.png" alt=""></a></li>
@@ -22,17 +22,39 @@
                 <li><a href="../pages/contact_us.html">CONTACT US</a></li>
             </ul>
         </nav>
+    </header> -->
+
+    <header>
+        <nav id="navBar" class="navbar">
+            <div class="logo">
+                <a href="../index/index.html"><img src="../images/Primary_logo.png" alt=""></a>
+            </div>
+            <div class="menu-toggle">
+                <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index/index.html">HOME</a></li>
+                <li><a href="../pages/about_us.html">ABOUT US</a></li>
+                <li><a href="../pages/pricing.html">PRICING</a> </li>
+                <li><a href="../pages/our_services.html">OUR SERVICES &#9660; </a></li>
+                <li><a href="../pages/resources.html">RESOURCES &#9660; </a></li>
+                <li><a href="../pages/courses.html">COURSES</a></li>
+                <li><a href="../pages/contact_us.html">CONTACT US</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <section class="section-1">
             <div id="section-1">
             <p class="afrik_brand section"> Online courses with <span class="afrik-brand">AFRIKBRAND</span></p>
             <h1 class="bost section">ENROLL YOUESELF IN MODERN TECH <br> COURSES <span class="boost">TO BOOST UP YOUR CAREER.</span></h1>
-            <button type="button" class="section" id="button">DISCOVER AFRIKBRAND COURSES <span class="down">&#8595;</span></button>
+            <a href="#courses">
+                <button type="button" class="section" id="button">DISCOVER AFRIKBRAND COURSES <span class="down">&#8595;</span></button>
+            </a>
         </div>
         </section>
 
-        <section id="" class="section">
+        <section id="courses" class="section">
             <div class="row section">
                 <div class="box" onclick="display()">
                    <div class="availabity"><h5>AVAILABILTY: ONLINE/OFFLINE</h5></div>
@@ -108,9 +130,9 @@
         </section>
 
         <section>
-            <div class="box-2">
+            <div class="box-2 section">
 
-                <div id="card" class="section">
+                <div id="card">
                     <img class="mage" src="../images/icon-banned.jpeg" alt="">
                     <h5>FULL ACCESS TO COMMUNITY</h5>
                 <p>
@@ -122,7 +144,7 @@
                 </p>
                 </div>
 
-                <div class="qard section">
+                <div class="qard">
                     <img id="mage" src="../images/icon-page.png" alt="">
                     <h5>COURSE CERTIFICATION</h5>
                     <p>Upon completing the course, <br>
@@ -134,7 +156,7 @@
                        career prospects.</p>
                 </div>
 
-                <div class="card section">
+                <div class="card">
                     <img class="mage" src="../images/icon-laptop.png" alt="">
                     <h5>CODE REVIEWS</h5>
                     <p>In our web development course, <br>
@@ -147,9 +169,9 @@
                 </div>
             </div>
 
-            <div class="box-2">
+            <div class="box-2 section">
 
-                <div id="card" class="section">
+                <div id="card">
                     <img class="mage" src="../images/icon-banned.jpeg" alt="">
                     <h5>EXPERIENCED INSTRUCTORS</h5>
                     <p>benefit from experienced <br>
@@ -161,7 +183,7 @@
                     </p> 
                 </div>
 
-                <div class="qard section">
+                <div class="qard">
                     <img id="mage" src="../images/icon-page.png" alt="">
                     <h5>PROJECT-BASED LEARNING</h5>
                     <p>Enroll now to dive into project-<br>
@@ -174,7 +196,7 @@
                     </p>
                 </div>
 
-                  <div class="card section">
+                  <div class="card">
                     <img class="mage" src="../images/icon-laptop.png" alt="">
                     <h5>INTERVIEW PREP & CAREER SUPPORT</h5>
                     <p>Access tailored interview <br>
@@ -192,7 +214,9 @@
                      Learning Opportunities <br>
                       With AFRIKBRAND?</h2>
                 <p class="section">You've Got A Project Or Want To Join Our Academy?</p>
-                <button type="button" id="btn" class="section">APPLY NOW &#x2794;</button>
+                <a href="#">
+                    <button type="button" id="btn" class="section">APPLY NOW &#x2794;</button>
+                </a>
                  <div><img id="img" class="section" src="../images/courses-explore.png" alt="ERROR 404"></div>
             </div>
 
@@ -204,7 +228,9 @@
 
                    <input type="email" name="email" id="input" placeholder="YOUR EMAIL:">
                    <!-- <button  type="button" id="subscribe"><a href="index.html"></a>Subscribe Now</button> -->
-                   <a href="about_us.html"><button type="button" id="subscribe">Subscribe</button></a>
+                  <a href="about_us.html">
+                    <button type="button" id="subscribe">Subscribe</button>
+                  </a>
             </div>
 
         </section>

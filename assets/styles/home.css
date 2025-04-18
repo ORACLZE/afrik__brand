@@ -16,30 +16,38 @@ header {
     padding: 0;
     text-align: center;
     background-color: rgb(10, 10, 29);
-    height: 100px;
+    height: 90px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+i.fa-bars {
+    color: #ff4500;
+    display: none;
+}
+.logo img {
+    width: 180px;
+    height: 30px;
+    margin: 0;
+    /* padding-left: 15px; */
 }
 header nav ul {
+    display: flex;
     list-style-type: none;
     padding: 0;
-    position: relative;
-    bottom: 30px;
-}
-header nav ul img  {
-    width: 180px;height: 30px;
-    margin: 0;
-    padding-left: 15px;
-    position: relative;
-    right: 50px;
-    top: 10px;
+    /* position: relative;
+    bottom: 30px; */
 }
 header nav ul li {
-    display: inline;
     color: #ff4500;
     margin:0 25px;
     justify-content: space-around;
     /* gap: 30px; */
-    position: relative;
-    top: 50px;
+    /* position: relative;
+    top: 50px; */
 }
 header nav ul li :hover {
     color: #fff;
@@ -84,28 +92,63 @@ header nav ul li a :hover{
     width: 300px; height: 50px;
     font-size: 25px;
     font-weight: 600;
+    border: none;
+    animation: translate 2s;
 }
 #section-1 button:hover {
     cursor: pointer;
     transform: scale(1.1);
-    transition: scale 2s ease 7s both;
+    transition: scale 1s ease 1s;
     border: none;
+}
+@keyframes translate {
+    0% {
+        transform: translateX(-20%);
+    }
+    50% {
+        transform: translateX(30%);
+        animation-delay: 2s;
+    }
+    70% {
+        transform: translateX(-30%);
+        animation-delay: 1s;
+    }
+    100% {
+        transform: translateX(0%);
+    }
 }
 .img {
     margin-left: 800px;
     position: relative;
     bottom: 390px;
-    animation: skew infinite 60s;
-}
-@keyframes skew {
-    from{transform: skew(360deg);}
-    to{transform: skew(360deg);}
+    animation: rotate 2s forwards;
 }
 .img:hover {
-    cursor: pointer;
+    /* cursor: pointer; */
     filter:brightness(100%)
     /* background-color: #00f */
 }
+@keyframes rotate {
+   0% {
+    transform: rotate(20deg);
+   }
+   25% {
+    transform: rotate(-15deg);
+   }
+   50% {
+    transform: rotate(25deg);
+   }
+   75% {
+    transform: rotate(-30deg);
+   }
+   90% {
+    transform: rotate(35deg);
+   }
+   100% {
+    transform: rotate(0);
+   }
+}
+
 /* #blade-1 {
     width: 15px;
     border: #880088 9px solid;
@@ -241,9 +284,15 @@ header nav ul li a :hover{
     border: 0;
 }
 .simplify-button:hover {
-    cursor: pointer;
+   cursor: pointer;
+   /* background-color: #000; */
+   /* transform: scale(1.1);
+   transition: all 1s ease; */
+}
+#simplification:hover {
+    /* background-color: #000; */
     transform: scale(1.1);
-    transition: 1s ease;
+    transition: all 1s ease;
 }
 .boost {
     text-align: center;
@@ -283,9 +332,10 @@ header nav ul li a :hover{
 }
 #boost-button:hover {
     cursor: pointer;
-    background-color: rgb(34, 34, 34);
-    transform: translateY(-20%);
-    transition: 1s ease;
+    opacity: 0.8;
+    /* background-color: rgb(34, 34, 34); */
+    transform:translateY(-25%);
+    transition: all 1s ease;
 }
 .master h3 {
     font-size: 4rem;
@@ -464,9 +514,9 @@ header nav ul li a :hover{
     color: #fff;
     font-size: 20px;
     width: 200px;
-    height: 73px;
+    height: 72px;
     position: relative;
-    bottom: 110px;
+    bottom: 108.5px;
     right: 6px;
     /* left: 5px; */
     margin-top: 20px;

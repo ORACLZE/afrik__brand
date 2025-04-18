@@ -6,23 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
     <link rel="stylesheet" href="../styles/about_us.css">
+    <script src="https://kit.fontawesome.com/a5ee7b3ada.js" crossorigin="anonymous"></script>
     <title>ABOUT_US</title>
 </head>
 
 <body>
-    <header>
+    <!-- <header>
         <nav>
-            <ul>
-                <!-- <a href=""></a><li><img src="./Primary_logo.png" alt=""></li></a>
-                <a href="home"></a><li>HOME</li></a>
-                <a href="about_us"></a><li>ABOUT US</li></a>
-                <a href="pricing"></a><li>PRICING</li></a>
-                <a href="our_services"></a><li>OUR SERVICE 🔽</li></a>
-                <a href="resources"></a><li>RESOURCES 🔽🔄</li></a>
-                <a href="courses"></a><li>COURSES</li></a>
-                <a href="contact_us"></a><li>CONTACT US</li></a> -->
-
+            <div class="logo">
                 <li><a href="about_us.html"><img src="../images/Primary_logo.png" alt=""></a></li>
+            </div>
+            <ul>
+                <li><a href="../index/index.html">HOME</a></li>
+                <li><a href="about_us.html">ABOUT US</a></li>
+                <li><a href="pricing.html">PRICING</a> </li>
+                <li><a href="our_services.html">OUR SERVICES &#9660; </a></li>
+                <li><a href="resources.html">RESOURCES &#9660; </a></li>
+                <li><a href="courses.html">COURSES</a></li>
+                <li><a href="contact_us.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </header> -->
+
+    <header>
+        <nav id="navBar" class="navbar">
+            <div class="logo">
+                <a href="#"><img src="../images/Primary_logo.png" alt=""></a>
+            </div>
+            <div class="menu-toggle">
+                <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+            </div>
+            <ul class="nav-links">
                 <li><a href="../index/index.html">HOME</a></li>
                 <li><a href="about_us.html">ABOUT US</a></li>
                 <li><a href="pricing.html">PRICING</a> </li>
@@ -33,7 +47,7 @@
             </ul>
         </nav>
     </header>
-
+                                        
     <main>
         <section id="section-1">
             <div class="container sections">
@@ -76,9 +90,9 @@
                          <span>promise is to deliver measurable results that drive growth. <br>
                          Whether it’s expanding your onlinereach, boosting your <br>
                          engagement, or increasing conversions, we’re dedicated to
-                         your success.</span></p>
+                         your success.</span></p> 
                     </div>
-                        <div class="image-2"><img src="../images/cooperate2_about-us.png" alt=""></div>
+                        <div class="image-2"><img class="no-2" src="../images/cooperate2_about-us.png" alt=""></div>
             </div>  
             <div class="container sections">
                 <div class="image-3"><img src="../images/cooperate1_abou-us.png" alt=""></div>
@@ -321,21 +335,28 @@
             <div class="grow">
                 <h2>DO YOU WANT TO GROW YOUR BUSINESS?</h2>
                  <p>We Can Do it Together</p>
-                 <button type="button" id="">Contact Us &#x2794;</button> 
+                 <a href="#">
+                    <button type="button" id="">Contact Us &#x2794;</button> 
+                 </a>
             </div>
             <div class="imG"><img id="img" src="../images/black_lady-1.png" alt="ERROR 404"></div>
         </div>
             <div class="consultation">
                 <h2>GET FREE <b>CONSULTATION</b></h2>
                 <p>Schedule a free consultation with our experts</p>
-                <button type="button" id="">BOOK CONSULTATION &#x2794;</button>
+                <a href="#">
+                    <button type="button" id="">BOOK CONSULTATION &#x2794;</button>
+                </a>
             </div>
 
             <div id="community">
                 <img src="../images/Primary_logo.png" alt="ERROR 404">
                 <h2>JOIN OUR COMMUNITY</h2>
                 <p>The subscription packages have a duration of 3 months, 6 months or 1 year. However, <br> based on particular services needed, prices can be determined through a consultation <br> with our representative and services can still be provided outside the packages.</p>
-                <input type="email" name="email" id="input" placeholder="Your Email:"><a href=""><button type="button" id="subscribe">Subscribe Now</button></a>
+                <input type="email" name="email" id="input" placeholder="Your Email:">
+                <a href="#">
+                    <button type="button" id="subscribe">Subscribe Now</button>
+                </a>
                 <!-- <a href="about_us.html"><button type="button" id="subscribe">Subscribe Now</button></a> -->
             </div>
         </section>

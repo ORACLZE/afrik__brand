@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,9 @@
     <link rel="stylesheet" href="../styles/home.css">
     <title>HOME</title>
 </head>
+
 <body>
-    <header>
+    <!-- <header>
         <nav>
             <ul>
                 <li><a href="./index.html"><img src="../images/Primary_logo.png" alt=""></a></li>
@@ -21,16 +23,37 @@
                 <li><a href="../pages/contact_us.html">CONTACT US</a></li>
             </ul>
         </nav>
+    </header> -->
+
+    <header>
+        <nav id="navBar" class="navbar">
+            <div class="logo">
+                <a href="../index/index.html"><img src="../images/Primary_logo.png" alt=""></a>
+            </div>
+            <div class="menu-toggle">
+                <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index/index.html">HOME</a></li>
+                <li><a href="../pages/about_us.html">ABOUT US</a></li>
+                <li><a href="../pages/pricing.html">PRICING</a> </li>
+                <li><a href="../pages/our_services.html">OUR SERVICES &#9660; </a></li>
+                <li><a href="../pages/resources.html">RESOURCES &#9660; </a></li>
+                <li><a href="../pages/courses.html">COURSES</a></li>
+                <li><a href="../pages/contact_us.html">CONTACT US</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
         <section id="section-1">
-        <div class="section-1">
-            <h2 class="sections">Discover your exact <br> digital marketing <br> needs.</h2>
-            <p class="sections">Take this assessment if you are building your <br> Business, Start-Up or Personal Brand.</p>
-            <button type="button" class="sections">FREE ASSESSMENT</button>
-            <div class="sections"><img class="img" src="../images/home_image.png" alt=""></div>
-        </div>
+            <div class="section-1">
+                <h2 class="sections">Discover your exact <br> digital marketing <br> needs.</h2>
+                <p class="sections">Take this assessment if you are building your <br> Business, Start-Up or Personal
+                    Brand.</p>
+               <a href="#"> <button type="button" class="sections">FREE ASSESSMENT</button></a>
+                <div class="sections"><img class="img" src="../images/home_image.png" alt=""></div>
+            </div>
 
             <div id="problem">
 
@@ -80,71 +103,79 @@
         <section id="">
             <div class="simplify">
                 <h2 class="sections">SIMPLIFYING DIGITAL MARKETING <br> SOLUTIONS FOR YOUR BUSINESS</h2>
-                <p class="sections"><i>The world has become fully digital. Your next client is 70% online. Let us assist you in providing digital <br>
-                 solutions that will not just put you on the web but position you for success!</i></p>
-                 <button type="button" class="simplify-button sections">LEARN ABOUT OUR SERVICES</button>
+                <p class="sections"><i>The world has become fully digital. Your next client is 70% online. Let us assist
+                        you in providing digital <br>
+                        solutions that will not just put you on the web but position you for success!</i></p>
+                <a href="../pages/our_services.html">
+                    <button type="button" id="simplification" class="simplify-button sections">LEARN ABOUT OUR SERVICES</button>
+                </a>
             </div>
-         <div class="boost sections">
+            <div class="boost sections">
                 <h4><span>Boost your </span>social media account</h4>
                 <p>Are you looking to boost your online presence and connect with a wider audience on <br>
-                social media platforms such as Instagram, YouTube, Twitter, Soundcloud, Website ads <br>
-                 and many more!? We’ve got you covered!  </p>
-                 <button type="button" id="boost-button"> BUY NOW &#x2794;</button>
-    
-            <div class="master sections">
-                <h3><span>READY TO MASTER</span> A TECH SKILL?</h3>
-                <p>ENROLL YOURSELF IN MODERN TECH <br> COURSES <b>TO BOOST UP YOUR CAREER.</b></p>
-                <button type="button" id="master">ENROLL HERE &#x2794; <img src="" alt=""></button>
+                    social media platforms such as Instagram, YouTube, Twitter, Soundcloud, Website ads <br>
+                    and many more!? We’ve got you covered! </p>
+                <a href="../pages/pricing.html">
+                    <button type="button" id="boost-button"> BUY NOW &#x2794;</button>
+                </a>
+                <div class="master sections">
+                    <h3><span>READY TO MASTER</span> A TECH SKILL?</h3>
+                    <p>ENROLL YOURSELF IN MODERN TECH <br> COURSES <b>TO BOOST UP YOUR CAREER.</b></p>
+                   <a href="../pages/courses.html#courses">
+                    <button type="button" id="master">ENROLL HERE &#x2794; <img src="" alt=""></button>
+                   </a>
+                </div>
             </div>
-        </div>
         </section>
 
-        <section id="container" class="sections">
-            <div class="h2"><h3> CREATING DIGITAL SOLUTIONS </h3></div>
+        <section id="container">
+            <div class="h2 sections">
+                <h3> CREATING DIGITAL SOLUTIONS </h3>
+            </div>
             <div class="container">
-                <div class="solution">
-                <p>
-                  <span> SME'S & Start- Ups</span> <br>
-                    From authentic influencer partnerships <br> that 
-                     amplify your reach to conversational <br>
-                      commerce integration that streamlines <br>
-                       customer interactions, our solutions are <br>
+                <div class="solution sections">
+                    <p>
+                        <span> SME'S & Start- Ups</span> <br>
+                        From authentic influencer partnerships <br> that
+                        amplify your reach to conversational <br>
+                        commerce integration that streamlines <br>
+                        customer interactions, our solutions are <br>
                         designed to elevate your brand’s visibility. <br>
-                         Our user-generated content campaigns <br>
-                          foster a sense of community that <br> drives 
-                           customer loyalty
-                </p>
+                        Our user-generated content campaigns <br>
+                        foster a sense of community that <br> drives
+                        customer loyalty
+                    </p>
                 </div>
 
-                <div class="solution">
-                <p>
-                  <span> Large Companies</span> <br>
-                    In the vast landscape of large <br>
-                     corporations, maintaining a <br>
-                      compelling brand presence is <br>
-                       essential for success. Afrikbrand <br>
+                <div class="solution sections">
+                    <p>
+                        <span> Large Companies</span> <br>
+                        In the vast landscape of large <br>
+                        corporations, maintaining a <br>
+                        compelling brand presence is <br>
+                        essential for success. Afrikbrand <br>
                         specializes in digital marketing <br>
-                         solutions that transform your brand <br>
-                          into a powerhouse of engagement <br>
-                           and influence.
-                </p>
+                        solutions that transform your brand <br>
+                        into a powerhouse of engagement <br>
+                        and influence.
+                    </p>
                 </div>
 
-                <div class="solution">
-                <p>
-                   <span> Personal Brands</span> <br>
-                    Your personal brand deserves to shine <br>
-                     in the digital realm, and Afrikbrand is <br>
-                      here to make that happen. We <br>
-                       specialize in digital marketing solutions <br>
+                <div class="solution sections">
+                    <p>
+                        <span> Personal Brands</span> <br>
+                        Your personal brand deserves to shine <br>
+                        in the digital realm, and Afrikbrand is <br>
+                        here to make that happen. We <br>
+                        specialize in digital marketing solutions <br>
                         that elevate your personal brand to <br>
-                         new heights of influence and <br>
-                          connection.
-                </p>
+                        new heights of influence and <br>
+                        connection.
+                    </p>
                 </div>
             </div>
         </section>
-<!-- bro revisit the site to make up your mind -->
+        <!-- bro revisit the site to make up your mind -->
         <section id="sme" class="sections">
             <h4>What SMEs say about Afrikbrand</h4>
             <div class="">
@@ -155,9 +186,9 @@
                 </div>
 
                 <div class="">
-                     <img src="" alt="">
-                     <h5></h5>
-                     <p></p>
+                    <img src="" alt="">
+                    <h5></h5>
+                    <p></p>
                 </div>
 
                 <div class="">
@@ -168,16 +199,21 @@
             </div>
             <p>GET FREE <b>CONSULTATION</b></p>
             <span>schedule a free consultation with our expert</span>
+           <a href="#">
             <div><button type="button" id="book">BOOK CONSULTATION &#x2794;</button></div>
+           </a>
         </section>
 
         <section id="community" class="sections">
             <img src="../images/Primary_logo.png" alt="ERROR 404">
             <h2>JOIN OUR COMMUNITY</h2>
-            <P>Get helpful tips and industry trends that will help you reach your audience <br>
-               and get them interested in your offer. Subscribe to our newsletter today!</P>
+            <p>Get helpful tips and industry trends that will help you reach your audience <br>
+                and get them interested in your offer. Subscribe to our newsletter today!</p>
             <input type="email" name="email" id="input" placeholder="YOUR EMAIL:">
-            <a href="about_us.html"><button type="button" id="subscribe">Subscribe Now</button></a>
+           <a href="../pages/about_us.html">
+            <input type="submit" id="subscribe" value="Subscribe Now">
+            <!-- <button type="button" id="subscribe">Subscribe Now</button> -->
+          </a> 
         </section>
     </main>
 
@@ -187,7 +223,7 @@
                 <h4>ABOUT US</h4>
                 <ul>
                     <li>Who we are <br>
-                    Our Resources</li>
+                        Our Resources</li>
                 </ul>
             </div>
 
@@ -195,10 +231,10 @@
                 <h4>SERVICES</h4>
                 <ul>
                     <li>Social Media Marketing <br>
-                 Branding identity and strategy <br>
-                         Website design <br>
-                          Email Marketing <br>
-                          Social Media Advertising</li>
+                        Branding identity and strategy <br>
+                        Website design <br>
+                        Email Marketing <br>
+                        Social Media Advertising</li>
                 </ul>
             </div>
 
@@ -206,16 +242,24 @@
                 <h4>QUICK LINK</h4>
                 <ul>
                     <li>Take free consultation <br>
-                    Subscribe to our newsletters</li>
+                        Subscribe to our newsletters</li>
                 </ul>
-                <div id="icons"> 
-                    <div class="icons"><li><a href="#" class="facebook"><img src="../images/icon-facebook.png" alt=""></a></li></div>
-                    <div class="icons"><li><a href="#" class="twitter"><img class="icon" src="../images/icon-X.png" alt=""></a></li></div>
-                    <div class="icons"><li><a href="#" class="instagram"><img src="../images/icon-instagram.png" alt=""></a></li></div>
-                    <div class="icons"><li><a href="#" class="linkedin"><img src="../images/icon-linkedin.png" alt=""></a></li></div>
+                <div id="icons">
+                    <div class="icons">
+                        <li><a href="#" class="facebook"><img src="../images/icon-facebook.png" alt=""></a></li>
+                    </div>
+                    <div class="icons">
+                        <li><a href="#" class="twitter"><img class="icon" src="../images/icon-X.png" alt=""></a></li>
+                    </div>
+                    <div class="icons">
+                        <li><a href="#" class="instagram"><img src="../images/icon-instagram.png" alt=""></a></li>
+                    </div>
+                    <div class="icons">
+                        <li><a href="#" class="linkedin"><img src="../images/icon-linkedin.png" alt=""></a></li>
+                    </div>
                 </div>
             </div>
-              <div class="footer">
+            <div class="footer">
                 <h4>CONTACT US</h4>
                 <ul>
                     <li>+4915219434537</li>
@@ -230,4 +274,5 @@
     </footer>
     <script src="../script/home.js"></script>
 </body>
+
 </html>
