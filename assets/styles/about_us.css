@@ -303,19 +303,13 @@ imG:hover {
     /* transition: all 2s ease; */
 }
 #img {
-    /* border-top-left-radius: 100px;
-    border-bottom-left-radius: 90px;
-    border-top-right-radius: 90px;
-    border-bottom-right-radius: 90px; */
     border-radius: 40px;
-    /* filter: blur(7px) */
-    /* filter: grayscale(100%); */
+    filter: blur(7px);
+    transition: all 1s ease;
 }
 #img:hover {
-    /* filter:blur(0); */
-    /* filter: grayscale(0%); */
+    filter:blur(0);
     transform: scale(1.1);
-    transition: all 1s ease;
 }
 .consultation {
     position: relative;
@@ -350,12 +344,12 @@ imG:hover {
     border-top-left-radius: 70px;
     border-bottom-left-radius: 70px;
     border-bottom-right-radius: 70px;
+    transition: all 1s ease;
 }
 .consultation button:hover {
     cursor: pointer;
     background-color: rgb(16, 16, 44);
     transform: translateY(-20%);
-    transition: all 1s ease;
 }
 #community {
     /* background:linear-gradient(90deg,#f77e00, rgb(126, 118, 118), #da9546,  #f77e00); */
@@ -488,13 +482,13 @@ footer {
     margin: 0 1px;
     color: #333;
     text-decoration: none;
+    transition: 0.7s ease;
 }
 
 #icons a:hover {
     /* background-color: #ccc; */
     cursor: pointer;
     transform: scale(1.2 );
-    transition: 0.7s ease ;
 }
 
 .copyright {
@@ -512,7 +506,6 @@ footer {
     transform: translateY(0);
 }
 
-
 @media (max-width: 414px) {
     #section-1 {
         width: 282px;
@@ -524,42 +517,37 @@ footer {
     .image-1 {
         z-index: 1;
         /* border: #ff4500 2px solid; */
-        min-width: 200px;
+        min-width: 350px;
         /* max-width: 370px; */
         position: relative;
-        right: 120px;
+        right: 95px;
         margin: 0;
+        padding-top: 40px;
     }
     .image-1 img {
         width: 100%;
     }
     .image-2 {
-        z-index: 2;
+        z-index: 1;
         /* border: #ff4500 2px solid; */
-        min-width: 280px;
+        min-width: 350px;
         /* max-width: 370px; */
         position: relative;
-        right: 120px;
-        bottom: 1230px;
-        /* margin-top: 10px; */
-    }
-    .no-2 {
-        /* z-index: 2; */
-        margin-top: 140px;
-        /* padding-bottom: 100px; */
+        right: 95px;
+        margin: 0;
     }
     .image-2 img {
         width: 100%;
     }
     .image-3 {
-        z-index: 3;
+        z-index: 1;
         /* border: #ff4500 2px solid; */
-        min-width: 200px;
+        min-width: 350px;
         /* max-width: 370px; */
         position: relative;
-        right: 120px;
-        padding-top: 40px;
+        right: 95px;
         margin: 0;
+        padding-top: 100px;
     }
     .image-3 img {
         width: 100%;
@@ -567,32 +555,169 @@ footer {
     .nate:nth-child(1) {
         /* border: 2px solid #ff4500; */
         position: relative;
-        right: 100px;
+        /* right: 100px; */
     }
     .nate:nth-child(2) {
         /* border: 2px solid #ff4500; */
         position: relative;
-        right: 100px;
+        /* right: 100px; */
     }
     .nate:nth-child(3) {
         /* border: 2px solid #ff4500; */
         position: relative;
-        right: 100px;
+        /* right: 100px; */
     }
     .nate h3 {
-        color:blue;
-        font-size: 1.3rem;
-        /* margin-top: 200px; */
+        color: rgb(255, 132, 17);
+        /* font-size: 1.5rem; */
+        position: relative;
+        right: 50px;
+    }
+    .nate h3 span {
+        position: relative;
+        /* left: 20px; */
+        color: rgb(255, 132, 17);
     }
     .nate p {
         padding-top: 20px;
-        padding-bottom: 100px;
+        position: relative;
+        right: 50px;
         color: #0ff;
         font-size: 1rem;
         text-overflow: ellipsis;
     }
-    /* .image-1 img {
-        background-size: 10px;
-        background-repeat: no-repeat;
-    } */
+
+    .trust {
+       display: block; 
+       padding-left: 30px;
+    }
+    .leadership {
+        width: 300px;
+        height: 400px;
+    }
+    .leadership h5 {
+        padding-right: 40px;
+        text-align: center;
+    }
+
+    #section-4  {
+        background-color: #f4f8eb;
+        margin-top: 50px;
+    }
+    .marketing {
+        display: block;
+        padding: 0;
+    }
+    .brand {
+       width: 320px; 
+       height: 670px;
+       margin-top: 40px;
+       margin-left: 45px;
+    }
+    .brand img {
+        position: relative;
+        right: 20px;
+    }
+
+    .faQ {
+        display: block;
+        padding: 0;
+    }
+    .questions {
+        width: 300px;
+    }
+
+    #grow {
+        display: block;
+        height: 700px;
+    }
+    .grow {
+        border: 1px solid rgb(120, 17, 255);
+        width: 330px;
+        margin-left: 45px;
+    }
+    .grow h2 {
+        font-size: 1.7rem;
+    }
+    .grow span {
+        position: relative;
+        left: 50px;
+    }
+    .grow p {
+        position: relative;
+        left: 50px;
+        font-size: 1.4rem;
+    }
+    .grow button {
+        position: relative;
+        left: 25%;
+        bottom: 20px;
+    }
+    .imG {
+        position: relative;
+        right: 800px;
+        filter: blur(0);
+    }
+    #img {
+        position: relative;
+        top: 250px;
+        right: 780px;
+    }
+    .consultation {
+        position: relative;
+        /* top: 90px; */
+    }
+    .consultation h2 {
+        font-size: 2.7rem;
+        /* margin-bottom: 100px; */
+    }
+    .consultation p {
+        padding: 0 10px;
+    }
+    .consultation a {
+        /* position: relative;
+        bottom: 100px */
+        /* margin-bottom: 100px; */
+    }
+    #community img {
+        padding-left: 130px;
+        width: 150px;
+    }
+    #community h2 {
+        font-weight: 800;
+    }
+    #community p {
+        font-size: 1rem;
+    }
+    #input {
+        position: relative;
+        top: 20px;
+        min-width: 350px;
+        right: 780px;
+        border-radius: 30px;
+        /* left: 10px; */
+        /* margin-left: 10px; */
+    }
+    #subscribe {
+        position: relative;
+        top: 10px;
+        min-width: 370px;
+        border-radius: 30px;
+    }
+    .community {
+        margin-left: 25px;
+        padding-bottom: 40px;
+    }
+
+
+
+    .sections {
+        opacity: 0;
+        transform: translateY(-50px);
+        transition: opacity 0.9s ease, transform 0.9s ease;
+    }
+    .sections.show {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
