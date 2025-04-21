@@ -20,12 +20,12 @@ header {
     border-bottom-right-radius: -50%; */
     /* height: 100px; */
 }
-.navbar {
+/* .navbar {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 20px;
-}
+} */
 i.fa-bars {
     color: #ff4500;
 }
@@ -75,6 +75,9 @@ header nav ul li a:active {
 header nav ul li a :hover{
     color: #fff;
     /* transition: color 0.7s ease; */
+}
+.contact_us {
+    color: #fff;
 }
 /* header nav ul li a::after {
     content: '';
