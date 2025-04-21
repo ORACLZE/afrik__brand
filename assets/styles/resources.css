@@ -66,7 +66,8 @@ header nav ul li a :hover{
 
 #section-1 {
     /* background-color: rgb(21, 9, 78); */
-    background: linear-gradient(90deg, rgb(57, 57, 70),
+    background: linear-gradient(
+    90deg, rgb(57, 57, 70),
     rgb(107, 107, 194),
     rgba(13, 10, 167, 0.466),
     #00f,rgb(25, 156, 156),
@@ -146,11 +147,11 @@ header nav ul li a :hover{
     color: #fff;
     border: none;
     margin: 40px 48px;
+    transition: all 0.5s ease;
 }
 .button:hover {
     cursor: pointer;
     transform: scale(1.1);
-    transition: all 0.5s ease;
 }
 .consultation {
     position: relative;
@@ -185,12 +186,12 @@ header nav ul li a :hover{
     border-top-left-radius: 70px;
     border-bottom-left-radius: 70px;
     border-bottom-right-radius: 70px;
+    transition: all 1s ease;
 }
 .consultation button:hover {
     cursor: pointer;
     background-color: rgb(16, 16, 44);
     transform: translateY(-20%);
-    transition: all 1s ease;
 }
 #community {
     /* background:linear-gradient(90deg,#f77e00, rgb(126, 118, 118), #da9546,  #f77e00); */
@@ -324,13 +325,13 @@ footer {
     margin: 0 1px;
     color: #333;
     text-decoration: none;
+    transition: 0.9s ease;
 }
 
 #icons a:hover {
     /* background-color: #ccc; */
     cursor: pointer;
-    transform: scale(1.2 );
-    transition: 0.7s ease ;
+    transform: scale(1.3);
 }
 
 .copyright {
