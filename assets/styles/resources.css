@@ -148,7 +148,7 @@ header nav ul li a :hover{
 .sIde img {
     width: 100%;
 }
-.button {
+#button {
     width: 380px;
     height: 8vh;
     font-size: 1.5rem;
@@ -159,7 +159,7 @@ header nav ul li a :hover{
     margin: 40px 48px;
     transition: all 0.5s ease;
 }
-.button:hover {
+#button:hover {
     cursor: pointer;
     transform: scale(1.1);
 }

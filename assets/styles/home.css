@@ -260,7 +260,17 @@ header nav ul li a :hover{
 }
 
 .simplify {
-    background-color: rgba(19, 0, 192, 0.959);
+    background: linear-gradient(30deg,
+    rgba(51, 0, 31, 0.959),
+    rgba(82, 21, 25, 0.959),
+    rgba(86, 75, 189, 0.959),
+    rgba(103, 67, 114, 0.959),
+    rgba(31, 21, 124, 0.959),
+    rgba(103, 67, 114, 0.959),
+    rgba(5, 0, 51, 0.959),
+    rgba(51, 0, 31, 0.959),
+    rgba(5, 0, 51, 0.959)
+    );
     color: #fff;
     margin: 20px 0;
     height: 750px;
