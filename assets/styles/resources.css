@@ -76,20 +76,19 @@ header nav ul li a :hover{
 
 #section-1 {
     /* background-color: rgb(21, 9, 78); */
-    background: linear-gradient(
-    90deg, rgb(57, 57, 70),
-    rgb(107, 107, 194),
-    rgba(13, 10, 167, 0.466),
-    #00f,rgb(25, 156, 156),
-    rgb(2, 2, 83));
-    color: #fff;
+    background: linear-gradient(90deg,
+    #7c501d,
+    #da9546,
+    #da9546
+);
+    color: #000;
     text-align: center;
     padding-top: 150px;
 }
 #section-1 span {
     font-size: 1.9rem;
     font-weight: 600;
-    color:rgb(255, 132, 17);
+    color: #fff;
 }
 #section-1 div {
     position: relative;
@@ -204,11 +203,13 @@ header nav ul li a :hover{
     transform: translateY(-20%);
 }
 #community {
-    /* background:linear-gradient(90deg,#f77e00, rgb(126, 118, 118), #da9546,  #f77e00); */
-    /* background: radial-gradient( ellipse,#ff0, #da9546, #f77e00); */
     margin-top: 20px;
-    /* padding-right: 70px; */
-    background: radial-gradient(circle, rgba(126, 118, 118),#f77e00, #da9546, grey);
+    background: linear-gradient(45deg,
+    rgba(126, 118, 118),
+    #f77e00,
+    #da9546,
+    grey
+);
 }
 #community img {
     width: 370px;

@@ -113,8 +113,8 @@ header nav ul li a :hover{
     height: 70px;
     margin: 0; padding: 0;border: 0;
     background-color: rgb(255, 132, 17);
-    color: #ffffff;
-    font-size: 15px;
+    color: #000;
+    font-size: 1.1rem;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -127,13 +127,18 @@ header nav ul li a :hover{
 }
 #button:hover {
     cursor: pointer;
-    background-color: #f0fafa;
-    color: #000;
+    /* background-color: #f0fafa; */
+    background: linear-gradient(10deg,
+    #868181,
+    #000,
+    #979595
+    );
+    color: rgb(255, 73, 17);
     transition: background-color 0.5s ease  0.7ms;
     transition: 1s ease ;
     /* transform: translate3d(50%); */
     transform: translateY(-30%);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+    box-shadow: 4px 12px 2px rgba(0, 0, 0, 0.3);
 }
 
 /* THE SECOND SECTION */
@@ -329,10 +334,7 @@ header nav ul li a :hover{
     to{transform: translateX(10%);}
     /* to{transform: scale(1.1);} */
 }
-/* @keyframes fade-out {
-    from{transform: rotate(30deg);}
-    to{transform: rotate(30deg);}
-} */
+
 /* come back and add animmation  */
 .explore {
     background-color: rgb(165, 110, 8);
@@ -405,6 +407,7 @@ header nav ul li a :hover{
     /* box-shadow: 110px 7px 0px 20px rgb(61, 64, 64); */
 }
 #btn {
+    /* background-color: #000; */
     color: #f77e00;
     width: 180px;
     height: 50px;
@@ -417,9 +420,12 @@ header nav ul li a :hover{
     font-size: 18px; font-weight: 600;
     border: 0;
     transition: all 1s ease;
+    /* background: conic-gradient(); */
 }
 #btn:hover {
-    background-color: #ff4500;
+    background: linear-gradient(60deg,
+    #ff4500,
+    #f08660);
     color: #000;
     cursor: pointer;
     box-shadow: 10px 5px 10px 1px rgba(1, 10, 20, 91);

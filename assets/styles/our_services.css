@@ -76,14 +76,14 @@ header nav ul li a :hover{
 
 #section-1 {
     background: linear-gradient(90deg,
-    rgb(248, 167, 16),
+    rgb(212, 162, 69),
     /* #ff4500, */
     rgb(238, 184, 84),
-    rgb(228, 159, 69)
+    rgb(143, 95, 33)
 
 
     );
-    color: #fff;
+    /* color: #fff; */
     text-align: center;
     margin-top: 0;
     padding-top: 170px;
@@ -91,7 +91,7 @@ header nav ul li a :hover{
 #section-1 span {
     font-size: 1.7rem;
     font-weight: 600;
-    color:rgb(255, 132, 17);
+    color: #fff;
 }
 #section-1 div {
     position: relative;
@@ -204,11 +204,13 @@ header nav ul li a :hover{
     transform: translateY(-20%);
 }
 #community {
-    /* background:linear-gradient(90deg,#f77e00, rgb(126, 118, 118), #da9546,  #f77e00); */
-    /* background: radial-gradient( ellipse,#ff0, #da9546, #f77e00); */
     margin-top: 20px;
-    /* padding-right: 70px; */
-    background: radial-gradient(circle, rgba(126, 118, 118),#f77e00, #da9546, grey);
+    background: linear-gradient(45deg,
+    rgba(126, 118, 118),
+    #f77e00,
+    #da9546,
+    grey
+);
 }
 #community img {
     width: 370px;
