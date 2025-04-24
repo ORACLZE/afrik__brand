@@ -5,6 +5,7 @@
     Segoe UI, Roboto, Helvetica Neue, Arial, 
     Noto Sans, sans-serif, Apple Color Emoji, 
     Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    /* background: #000; */
 }
 body {
     background-color:  #EDEAE0;
@@ -261,15 +262,10 @@ header nav ul li a :hover{
 
 .simplify {
     background: linear-gradient(30deg,
-    rgba(51, 0, 31, 0.959),
-    rgba(82, 21, 25, 0.959),
-    rgba(86, 75, 189, 0.959),
-    rgba(103, 67, 114, 0.959),
-    rgba(31, 21, 124, 0.959),
-    rgba(103, 67, 114, 0.959),
-    rgba(5, 0, 51, 0.959),
-    rgba(51, 0, 31, 0.959),
-    rgba(5, 0, 51, 0.959)
+    #000,
+    #3a3434,
+    #000,
+    #666464e5
     );
     color: #fff;
     margin: 20px 0;
@@ -444,7 +440,12 @@ header nav ul li a :hover{
 }
 #sme {
     /* font-family: roboto; */
-    background-color: rgb(255, 132, 17);
+    /* background-color: rgb(255, 132, 17); */
+    background: linear-gradient(30deg,
+    #000,
+    #888,
+    #1a1919
+    );
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
     height: 500px;
@@ -459,7 +460,8 @@ header nav ul li a :hover{
 #sme p {
     font-size: 4rem;
     font-weight: 250;
-    color: rgb(37, 37, 58);
+    color: #f77e00;
+    /* color: rgb(37, 37, 58); */
 }
 #sme p b {
     font-weight: 400;
@@ -467,7 +469,7 @@ header nav ul li a :hover{
 #sme span {
     font-size: 21px;
     font-weight: 450;
-    color: rgb(37, 37, 58);
+    color: #fff;
 }
 #book {
     margin-top: 20px;

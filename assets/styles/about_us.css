@@ -4,7 +4,8 @@
     font-family: apple-system, BlinkMacSystemFont, 
     Segoe UI, Roboto, Helvetica Neue, Arial, 
     Noto Sans, sans-serif, Apple Color Emoji, 
-    Segoe UI Emoji, Segoe
+    Segoe UI Emoji, Segoe;
+    /* background-color: rgb(10, 10, 29); */
 }
 body {
     margin: 0;
@@ -131,7 +132,14 @@ header nav ul li::after {
 /* COME BACK FOR THOSE RING STUFF */
 
 #section-3 {
-    background-color:  #FFF0F5;
+    /* background-color:  #000; */
+    background: linear-gradient(360deg,
+    #000,
+    #333,
+    #333,
+    #888,
+    #474747
+    );
 }
 .trust {
     display:flex;
@@ -159,7 +167,7 @@ header nav ul li::after {
     margin-bottom: 20px;
 }
 .section-4 {
-    background-color: #000;
+    background: #000;
 }
 #section-4 .p {
     font-size: 1.7rem;
@@ -220,6 +228,7 @@ header nav ul li::after {
 }
 #section-6 {
     background-color: #fff;
+    margin-top: 20px;
 }
 #section-6 h2 {
     text-align: center;
@@ -231,11 +240,13 @@ header nav ul li::after {
     text-align: center;
     font-size: 1.26rem;
     font-weight: 350;
+    margin: 0 0 50px 0;
 }
 .faQ {
+    background: #000;
     display: flex;
-    margin: 20px;
-    padding-left: 30px;
+    padding: 30px;
+    color: #fff;
 }
 .questions {
     /* background-color: #ff4500; */
@@ -253,11 +264,11 @@ header nav ul li::after {
     font-weight: 300;
 }
 .questions a {
-    color: rgb(197, 34, 197);
+    color: #fff;
     text-decoration: none;
 }
 .questions a:hover {
-    color: #000;
+    color: rgb(197, 34, 197);
     transition: all 0.2s;
 }
 #section-7 {

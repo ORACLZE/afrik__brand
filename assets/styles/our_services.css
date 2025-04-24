@@ -75,8 +75,14 @@ header nav ul li a :hover{
 }
 
 #section-1 {
-   background: repeating-radial-gradient(circle, #5eec4b,
-   #4c00ff 20%);
+    background: linear-gradient(90deg,
+    rgb(248, 167, 16),
+    /* #ff4500, */
+    rgb(238, 184, 84),
+    rgb(228, 159, 69)
+
+
+    );
     color: #fff;
     text-align: center;
     margin-top: 0;
@@ -98,6 +104,7 @@ header nav ul li a :hover{
     font-weight: 750;
     text-transform: uppercase;
     padding-top: 20px;
+    color: #292828;
 }
 #section-1 p {
     font-size: 1.6rem;
@@ -105,6 +112,7 @@ header nav ul li a :hover{
     text-overflow: clip;
     padding-top: 20px;
     padding-bottom: 140px;
+    color: #000;
 }
 #section-2 {
     margin-top: 20px;

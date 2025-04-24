@@ -242,7 +242,7 @@ header nav ul li a :hover{
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
-    box-shadow: 0 8px 12px rgba(5, 10, 2, 0.7);
+    box-shadow: 0 1px 12px rgba(5, 5, 2, 0.7);
     transition: all 1s ease;
 }
 .qard {
@@ -310,17 +310,18 @@ header nav ul li a :hover{
 #card:hover {
     /* cursor: pointer; */
     transform: scale(1.1);
-    box-shadow: 0 8px 90px rgba(5, 10, 2, 0.7);
+    box-shadow: 0 8px 30px rgba(5, 10, 2, 0.7);
+   ;
 }
 .card:hover{
     /* cursor: pointer; */
     transform: scale(1.1);
-    box-shadow: 0 8px 90px rgba(5, 10, 2, 0.7);
+    box-shadow: 0 8px 30px rgba(5, 10, 2, 0.7);
 }
 .qard:hover {
     /* cursor: pointer; */
     transform: scale(1.1);
-    box-shadow: 0 8px 90px rgba(5, 10, 2, 0.7);
+    box-shadow: 0 8px 30px rgba(5, 10, 2, 0.7);
     /* animation: fade-in 1s ease; */
 }
 @keyframes fade-in {
@@ -418,8 +419,8 @@ header nav ul li a :hover{
     transition: all 1s ease;
 }
 #btn:hover {
-    background-color: rgb(8, 170, 219);
-    color: #ffffff;
+    background-color: #ff4500;
+    color: #000;
     cursor: pointer;
     box-shadow: 10px 5px 10px 1px rgba(1, 10, 20, 91);
     border: 0;
