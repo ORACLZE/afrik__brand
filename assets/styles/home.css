@@ -65,7 +65,7 @@ header nav ul li a {
     text-decoration: none;
 }
 header nav ul li a:active {
-    color: blue;
+    color: #00f;
 }
 header nav ul li a :hover{
     color: #fff;
@@ -77,7 +77,15 @@ header nav ul li a :hover{
 /* FIRST SECTION */
 .section-1 {
     margin-left: 0;
-    background-color: rgb(255, 132, 17);
+    /* background-color: rgb(255, 132, 17); */
+    background: linear-gradient(90deg,
+    rgb(240, 176, 59),
+    rgb(212, 162, 69),
+    /* #ff4500, */
+    rgb(238, 184, 84),
+    rgb(143, 95, 33),
+    rgb(88, 51, 3)
+    );
     border-bottom-left-radius: 30%;
 }
 #section-1 h2 {

@@ -65,7 +65,7 @@ header nav ul li a {
     text-decoration: none;
 }
 header nav ul li a:active {
-    color: blue;
+    color: #00f;
 }
 header nav ul li a :hover{
     color: #fff;

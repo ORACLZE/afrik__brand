@@ -63,7 +63,7 @@ header nav ul li a {
     text-decoration: none;
 }
 header nav ul li a:active {
-    color: blue;
+    color: #00f;
 }
 header nav ul li a :hover{
     color: #fff;
@@ -80,8 +80,6 @@ header nav ul li a :hover{
     /* #ff4500, */
     rgb(238, 184, 84),
     rgb(143, 95, 33)
-
-
     );
     /* color: #fff; */
     text-align: center;

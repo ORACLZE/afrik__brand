@@ -90,7 +90,7 @@ header nav ul li a {
     text-decoration: none;
 }
 header nav ul li a:active {
-    color: green;
+    color: #00f;
     /* touch-action: manipulation; */
 }
 header nav ul li a :hover{
@@ -517,7 +517,8 @@ footer {
 .section {
     opacity: 0;
     transform: translateY(50px);
-    transition: opacity 1s ease, transform 1s ease;
+    transition: opacity 1s ease,
+    transform 1s ease;
 }
 .section.show {
     opacity: 1;
@@ -525,7 +526,8 @@ footer {
 }
 
 .form {
-    /* opacity: 0; */
+    
+    opacity: 0.8;
     transform: translateX(-9%);
     transition: opacity 1s ease, 
     transform 3s ease;
