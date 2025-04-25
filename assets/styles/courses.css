@@ -119,6 +119,7 @@ header nav ul li a :hover{
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     margin-top: 90px;
+    transition: 1s ease;
 }
 .down {
     font-size: 20px; font-weight:900;
@@ -134,8 +135,6 @@ header nav ul li a :hover{
     #979595
     );
     color: rgb(255, 73, 17);
-    transition: background-color 0.5s ease  0.7ms;
-    transition: 1s ease ;
     /* transform: translate3d(50%); */
     transform: translateY(-30%);
     box-shadow: 4px 12px 2px rgba(0, 0, 0, 0.3);
