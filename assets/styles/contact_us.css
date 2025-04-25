@@ -17,22 +17,7 @@ header {
     margin: 0;
     text-align: center;
     background-color: rgb(10, 10, 29);
-    position: sticky;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    /* border-bottom-left-radius: 20%;
-    border-bottom-right-radius: -50%; */
-    /* height: 100px; */
 }
-/* .navbar {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px;
-} */
 i.fa-bars {
     color: #ff4500;
 }
@@ -41,12 +26,6 @@ i.fa-bars {
     justify-content: space-around;
     align-items: center;
     padding-top: 30px;
-    /* position: sticky;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000; */
 }
 i.fa-bars {
     color: #ff4500;
@@ -59,17 +38,18 @@ i.fa-bars {
     /* padding-left: 15px; */
 }
 header nav {
-    /* position: sticky;
+    position: sticky;
     z-index: 1000;
     top: 0;
     bottom: 0;
     left: 0;
-    right: 0;   */
+    right: 0;  
 }
 header nav ul {
     display: flex;
     list-style-type: none;
     padding: 10;
+    z-index: 1000;
     /* position: relative;
     bottom: 30px; */
 }
@@ -77,6 +57,7 @@ header nav ul li {
     color: #ff4500;
     margin:0 25px;
     justify-content: space-around;
+    z-index: 1000;
     /* gap: 30px; */
     /* position: relative;
     top: 50px; */
@@ -97,7 +78,7 @@ header nav ul li a :hover{
     color: #fff;
     /* transition: color 0.7s ease; */
 }
-.contact_us {
+.active {
     color: #fff;
 }
 /* header nav ul li a::after {
@@ -119,16 +100,7 @@ header nav ul li a:hover::after {
     position: relative;
     top: -10px;
  } */
- .ader {
-    margin: 0;
-    padding: 0;
-    background-color: rgb(10, 10, 29);
-    position: relative;
-    top: -100px;
-    /* height: 50vh; */
-
- }
-.ader h1 {
+header h1 {
     text-align: center;
     color: #fff;
     font-size: 5rem;
@@ -138,7 +110,7 @@ header nav ul li a:hover::after {
     /* z-index: 1000; */
     /* overflow-y: hidden; */
 }
-.ader p {
+header p {
     font-size: 1.5rem; 
     font-weight: 300;
     text-align: center;
