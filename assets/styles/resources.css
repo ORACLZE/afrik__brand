@@ -208,7 +208,7 @@ header nav ul li a :hover{
     rgba(126, 118, 118),
     #f77e00,
     #da9546,
-    grey
+    #808080
 );
 }
 #community img {
@@ -221,7 +221,7 @@ header nav ul li a :hover{
     font-size: 35px;
     font-weight: 700;
     padding-left: 50px;
-    color:#ffffff
+    color:#ffffff;
 }
 #community p {
     font-size: 18px;
