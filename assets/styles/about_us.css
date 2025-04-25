@@ -83,7 +83,7 @@ header nav ul li::after {
     bottom: -6px;
     transition: 0.5s;
 } 
-.about_us {
+.active {
     color: #fff;
 }
 #section-1 {

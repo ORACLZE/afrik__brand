@@ -71,7 +71,7 @@ header nav ul li a :hover{
     color: #fff;
     /* transition: color 0.7s ease; */
 }
-.courses {
+.active {
     color: white;
 }
 
