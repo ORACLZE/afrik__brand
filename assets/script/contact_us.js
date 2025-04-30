@@ -15,7 +15,7 @@ section.forEach(section => {
 // const form = document.querySelectorAll("form");
 
 
-const form = document.querySelectorAll(".form");
+const form = document.querySelector(".form");
 
 const observe = new IntersectionObserver(entries => {
     entries.forEach(entry => {

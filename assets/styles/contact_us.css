@@ -135,6 +135,7 @@ header p {
     width: 450px;
     height: 7vh;
     border-radius: 10px;
+    font-weight: 900;
 }
 #text {
     min-width: 452.5px;
@@ -148,6 +149,7 @@ header p {
     padding-top: 10px;
     padding-left: 20px;
     border-radius: 10px;
+    font-weight: 900;
 }
 .form {
     /* background-color: #e9ecef; */

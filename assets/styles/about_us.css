@@ -5,6 +5,7 @@
     Segoe UI, Roboto, Helvetica Neue, Arial, 
     Noto Sans, sans-serif, Apple Color Emoji, 
     Segoe UI Emoji, Segoe;
+    user-select: none;
     /* background-color: rgb(10, 10, 29); */
 }
 body {
